@@ -1,26 +1,3 @@
-## Features
-- Parse Solana smart contract code.
-- Translate to Ethereum Solidity code.
-- Deploy the translated contract to an Ethereum testnet.
-- Validate the translated contract for errors and compatibility.
-
-## Requirements
-- Python 3.8+
-- Web3.py
-- Solana-Py
-
-## Usage
-1. Place your Solana smart contract in the `examples/` folder.
-2. Run the main program:
-    ```
-    python main.py
-    ```
-3. View the translated Solidity file in `examples/translated_eth_contract.sol`.
-4. (Optional) Validate the translated contract:
-    ```
-    python contract_validator.py examples/translated_eth_contract.sol
-    ```
-
 ## Disclaimer
 This is a basic proof-of-concept and may not handle all edge cases. Use with caution.
 ```
